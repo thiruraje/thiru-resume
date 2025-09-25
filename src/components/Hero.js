@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, ArrowDown, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Download } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -66,17 +66,16 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-resume">
-          <button className="btn btn-gradient">
-            <Download size={20} />
-            Download Resume
-          </button>
+          <a
+            href="/assets/resume.pdf"
+            download="Thiruvengadam-Resume.pdf"
+          >
+            <button className="btn btn-gradient">
+              <Download size={20} />
+              Download Resume
+            </button>
+          </a>
         </div>
-        <button 
-          onClick={() => scrollToSection('about')}
-          className="scroll-indicator"
-        >
-          <ArrowDown size={24} />
-        </button>
       </div>
     </section>
   );

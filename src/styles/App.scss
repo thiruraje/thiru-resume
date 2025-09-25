@@ -368,7 +368,7 @@ body {
           width: 80px;
           height: 80px;
           background: linear-gradient(45deg, $primary-color, lighten($primary-color, 20%));
-          top: 20%;
+          top: 15%;
           left: 20%;
           animation-delay: 0s;
         }
@@ -386,8 +386,8 @@ body {
           width: 70px;
           height: 70px;
           background: linear-gradient(45deg, $accent-color, lighten($accent-color, 20%));
-          bottom: 30%;
-          left: 30%;
+          bottom: 25%;
+          left: 20%;
           animation-delay: 4s;
         }
       }
