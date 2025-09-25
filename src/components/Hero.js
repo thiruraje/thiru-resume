@@ -9,6 +9,22 @@ const Hero = () => {
     }
   };
 
+  const handleDownload = async () => {
+    const response = await fetch("/assets/resume.pdf");
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "Thiruvengadam-Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+
+    // Cleanup
+    document.body.removeChild(link);
+    window.URL.revokeObjectURL(url);
+  };
+
   return (
     <section id="hero" className="hero">
       <div className="container">
@@ -66,15 +82,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-resume">
-          <a
-            href="/assets/resume.pdf"
-            download="Thiruvengadam-Resume.pdf"
-          >
-            <button className="btn btn-gradient">
-              <Download size={20} />
-              Download Resume
-            </button>
-          </a>
+          <button onClick={handleDownload} className="btn btn-gradient">
+            <Download size={20} />
+            Download Resume
+          </button>
         </div>
       </div>
     </section>
