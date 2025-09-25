@@ -1,5 +1,4 @@
 import React from 'react';
-import { Github, ExternalLink, Code, Database, Smartphone } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
