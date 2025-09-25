@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Auvenir Compilation App & Review App',
+      title: 'Auvenir Compilation & Review App',
       description: 'Implemented modules for client management and engagement tracking, streamlining audit planning and execution processes. Built using .NET Core and React.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['.NET Core', 'React', 'SQL Server', 'Azure DevOps'],
