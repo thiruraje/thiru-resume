@@ -1,3 +1,7 @@
 # Build folder and log file
 build/
 build.log
+
+.DS_*
+node_modules
+bower_components
