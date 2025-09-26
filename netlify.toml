@@ -1,0 +1,7 @@
+[build]
+  publish = "build"  # or wherever your built files are
+
+[[plugins]]
+  package = "netlify-plugin-google-analytics"
+  [plugins.inputs]
+    googleAnalytics = "${GOOGLE_ANALYTICS}"
