@@ -5,7 +5,7 @@ const Skills = () => {
     {
       title: 'Frontend Development',
       skills: [
-        'React.js', 'JavaScript (ES6+)', 'HTML5', 'CSS3/SCSS', 'Redux', 'Material UI'
+        'React JS', 'JavaScript (ES6+)', 'HTML5', 'CSS/SCSS', 'Redux', 'Material UI'
       ]
     },
     {
@@ -18,7 +18,7 @@ const Skills = () => {
     {
       title: 'Database & Tools',
       skills: [
-        'SQL Server', 'MongoDB', 'Git', 
+        'SQL Server', 'Git', 
         'Azure DevOps', 'Visual Studio', 'VS Code', 'Postman'
       ]
     },

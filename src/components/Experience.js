@@ -18,7 +18,7 @@ const Experience = () => {
         'Participated in agile development processes and sprint planning',
       ],
       technologies: ['JavaScript', 'React', '.Net Core', 'SQL'],
-      upSkills: ['Node Js', 'Express.js', 'MongoDB']
+      upSkills: ['Node Js', 'Express.js']
     },
     {
       id: 2,

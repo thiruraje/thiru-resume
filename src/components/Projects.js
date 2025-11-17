@@ -7,17 +7,17 @@ const Projects = () => {
       title: 'Inventory Observation',
       description: 'Full-stack digitize inventory observation solution built with .NET Core and React. Features include offline-first functionality to support remote audits in low-connectivity areas and reducing manual documentation and significantly decreasing paperwork.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-      technologies: ['.NET Core', 'React', 'SQL Server', 'Azure DevOps'],
+      technologies: ['.NET Core', 'React JS', 'SQL Server', 'Azure DevOps'],
       features: ['Progressive Web App (PWA)', 'Offline funtionality (Remote areas)', 'Real-time Updates'],
       category: 'Full Stack'
     },
     {
       id: 2,
       title: 'Auvenir Compilation & Review App',
-      description: 'Implemented modules for client management and engagement tracking, streamlining audit planning and execution processes. Built using .NET Core and React.',
+      description: 'Application which will allow users and clients to effectively execute the whole compilation journey, with the ability to easily communicate and collaborate with clients and colleagues. Built using .NET Core and React.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-      technologies: ['.NET Core', 'React', 'SQL Server', 'Azure DevOps'],
-      features: ['Client Management', 'Engagement Management', 'Audit Planning', 'Role Management'],
+      technologies: ['.NET Core', 'React JS', 'SQL Server', 'Azure DevOps'],
+      features: ['Client Management', 'Engagement Management', 'Audit compilation and review', 'Role Management'],
       category: 'Full Stack'
     },
   ];

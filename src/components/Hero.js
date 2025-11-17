@@ -35,7 +35,7 @@ const Hero = () => {
             </div>
             <h1 className="hero-title">
               <span className="name">Thiruvengadam Loganathan</span>
-              <span className="title-line">Full Stack Developer | Problem Solver | Tech Enthusiast</span>
+              <span className="title-line">Full Stack Developer</span>
             </h1>
             <p className="hero-description">
               Passionate React & .NET Core developer with expertise in building 

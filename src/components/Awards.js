@@ -4,19 +4,29 @@ import { Award, Trophy, Medal } from 'lucide-react';
 const Awards = () => {
   const highlights = [
     {
+      icon: <Trophy size={32} />,
+      title: 'Star of the Month - August 2025',
+      description: 'Best performer'
+    },
+    {
       icon: <Award size={32} />,
       title: 'SPOT Award',
       description: 'An internal recognition for the best team player and outstanding execution'
     },
     {
       icon: <Trophy size={32} />,
-      title: 'Star of the Month',
+      title: 'Star of the Month - February 2024',
       description: 'Best performer'
     },
     {
       icon: <Medal size={32} />,
       title: 'Rising Star Award',
       description: 'Best performer based on ratings, project delivery metrics, and leadership feedback'
+    },
+    {
+      icon: <Award size={32} />,
+      title: 'Customer Satisfaction Impact',
+      description: 'Orion Innoation | Professional Services | 2022'
     },
   ];
 
