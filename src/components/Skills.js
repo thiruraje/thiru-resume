@@ -11,15 +11,20 @@ const Skills = () => {
     {
       title: 'Backend Development',
       skills: [
-        '.NET Core', 'C#', 'Node.js', 
-        'Express.js', 'RESTful APIs'
+        'ASP.NET Core', 'C#', 'Node.js', 
+        'Express.js', 'RESTful APIs', 'SignalR'
       ]
     },
     {
-      title: 'Database & Tools',
+      title: 'Tools',
       skills: [
-        'SQL Server', 'Git', 
-        'Azure DevOps', 'Visual Studio', 'VS Code', 'Postman'
+        'Azure DevOps', 'Visual Studio', 'VS Code', 'Postman', 'Swagger', 'GitHub'
+      ]
+    },
+    {
+      title: 'Database & Methodologies',
+      skills: [
+        'SQL Server', 'Agile'
       ]
     },
   ];

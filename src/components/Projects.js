@@ -4,21 +4,30 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Inventory Observation',
-      description: 'Full-stack digitize inventory observation solution built with .NET Core and React. Features include offline-first functionality to support remote audits in low-connectivity areas and reducing manual documentation and significantly decreasing paperwork.',
+      title: 'Sports Management Platform',
+      description: 'Handling player registration and streamlined communication between clubs, coaches, and players. Developed a user-friendly platform to promote football and improved  local community engagement.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-      technologies: ['.NET Core', 'React JS', 'SQL Server', 'Azure DevOps'],
-      features: ['Progressive Web App (PWA)', 'Offline funtionality (Remote areas)', 'Real-time Updates'],
-      category: 'Full Stack'
+      technologies: ['Angular 19', 'Node.js', 'MongoDB'],
+      features: ['Player Registration Portal', 'Player Management', 'Club Management'],
+      category: 'MEAN Stack'
     },
     {
       id: 2,
+      title: 'Inventory Observation',
+      description: 'Full-stack digitize inventory observation solution built with .NET Core and React. Implemented offline-first architecture to support remote audits in low-connectivity environments and reducing manual documentation and significantly decreasing paperwork.',
+      image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      technologies: ['ASP.NET Core', 'React.js', 'SQL Server', 'SignalR'],
+      features: ['Progressive Web App (PWA)', 'Offline funtionality (Remote areas)', 'Real-time Updates'],
+      category: '.NET Full Stack'
+    },
+    {
+      id: 3,
       title: 'Auvenir Compilation & Review App',
       description: 'Application which will allow users and clients to effectively execute the whole compilation journey, with the ability to easily communicate and collaborate with clients and colleagues. Built using .NET Core and React.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-      technologies: ['.NET Core', 'React JS', 'SQL Server', 'Azure DevOps'],
+      technologies: ['ASP.NET Core', 'React.js', 'SQL Server'],
       features: ['Client Management', 'Engagement Management', 'Audit compilation and review', 'Role Management'],
-      category: 'Full Stack'
+      category: '.NET Full Stack'
     },
   ];
 

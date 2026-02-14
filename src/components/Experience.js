@@ -10,15 +10,14 @@ const Experience = () => {
       location: 'Coimbatore',
       period: '2021 - Present',
       type: 'Full-time',
-      description: 'Developed responsive web applications using React and .NET technologies. Collaborated with cross-functional teams to deliver high-quality solutions.',
+      description: 'Developed responsive web applications using React and ASP.NET Core technologies. Collaborated with cross-functional teams to deliver high-quality solutions.',
       responsibilities: [
         'Collaborated on project design, feature enhancements, and cross-device UI implementation',
-        'Designed and implemented RESTful APIs using .NET Core',
-        'Resolved 90% of defects and performance issues through effective troubleshooting',
         'Participated in agile development processes and sprint planning',
+        'Implemented CI/CD pipelines using Azure DevOps, enabling automated build and deployment workflows.'
       ],
-      technologies: ['JavaScript', 'React', '.Net Core', 'SQL'],
-      upSkills: ['Node Js', 'Express.js']
+      technologies: ['JavaScript', 'React.js', 'ASP.NET Core', 'SQL Server'],
+      upSkills: ['Node.js', 'Express.js']
     },
     {
       id: 2,
@@ -32,9 +31,10 @@ const Experience = () => {
         "Developed frontend components & User story's using React Js",
         'Created backend APIs using .Net Core',
         'Worked on database design and optimization',
-        'Participated in daily standups and code reviews'
+        'Participated in daily standups and code reviews',
+        'Resolved 90% of defects and performance issues through effective troubleshooting',
       ],
-      technologies: ['JavaScript', 'React', '.Net Core', 'SQL']
+      technologies: ['JavaScript', 'React.js', 'ASP.NET Core', 'SQL Server']
     }
   ];
 

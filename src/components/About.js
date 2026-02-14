@@ -16,12 +16,12 @@ const About = () => {
     {
       icon: <Code size={32} />,
       title: 'Frontend Development',
-      description: 'React, Javascript'
+      description: 'HTML5, CSS3, SCSS, JavaScript (ES6+), React.js'
     },
     {
       icon: <Server size={32} />,
       title: 'Backend Development',
-      description: '.NET Core, RESTful APIs'
+      description: 'ASP.NET Core, Node.js, Express.js'
     },
     {
       icon: <Database size={32} />,
@@ -50,16 +50,14 @@ const About = () => {
             <div className="text-block">
               <h3>My Journey</h3>
               <p>
-                With over {years} years {months > 0 ? `${months} months ` : ""}experience in full-stack development, I specialize in 
-                .NET Core and React technologies. My passion lies in creating scalable, 
-                maintainable applications that solve real-world problems.
+                With over {years} years {months > 0 ? `${months} months ` : ""}experience building scalable web applications using React.js and ASP.NET Core. Strong expertise in developing reusable component-based architectures, responsive UI design, and RESTful API integration.
               </p>
             </div>
             
             <div className="text-block">
               <h3>What I Do</h3>
               <p>
-                I build end-to-end web applications, from database design to user interface 
+                I build end-to-end web applications,  Proven track record of delivering user-centric, high-performance applications in Agile environments and database design to user interface 
                 implementation. My secondary expertise in MERN stack allows me to adapt to 
                 various project requirements and technology preferences.
               </p>
