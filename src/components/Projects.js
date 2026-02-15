@@ -5,11 +5,11 @@ const Projects = () => {
     {
       id: 1,
       title: 'Sports Management Platform',
-      description: 'Handling player registration and streamlined communication between clubs, coaches, and players. Developed a user-friendly platform to promote football and improved  local community engagement.',
+      description: 'Designed and developed backend services using Node.js and Express.js to manage player registration, team management, and match data workflows. Developed a user-friendly platform to promote football and improved  local community engagement.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
       technologies: ['Angular 19', 'Node.js', 'MongoDB'],
-      features: ['Player Registration Portal', 'Player Management', 'Club Management'],
-      category: 'MEAN Stack'
+      features: ['Player Registration Portal', 'Team Management', 'Match data workflows'],
+      category: 'Node.js'
     },
     {
       id: 2,
